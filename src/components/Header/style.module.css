@@ -1,0 +1,46 @@
+.header{
+  height: 200px;
+  background-color: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inputTodo{  
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  margin-top: -1.75rem;
+}
+
+.inputTodo input {
+  padding: 0.55rem;
+  width: 39rem;
+  height: 3rem;
+  outline: none;  
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background-color: var(--gray-500);
+  color: var(--gray-100); 
+}
+
+.inputTodo > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--gray-100);    
+  margin-left: 0.35rem;
+  cursor: pointer;
+  padding: 0.85rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  border: none;
+  transition: background-color 0.2s;
+  font-weight: bold;
+
+  &:hover{
+    background-color: var(--blue-dark);
+  }
+}
